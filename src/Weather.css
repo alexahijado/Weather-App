@@ -1,0 +1,51 @@
+/* Weather.css */
+
+/* Styles for the main Weather component */
+.weather-container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.temperature {
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+.unit-selector {
+    margin-top: 10px;
+}
+
+/* Styles for the App component */
+.app-container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    /* Add margin to create spacing around the App component */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the header in the App component */
+.app-container header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px;
+}
+
+.app-container h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Additional styles can be added as needed */
